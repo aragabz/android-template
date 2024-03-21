@@ -1,5 +1,5 @@
 [versions]
-agp = "8.4.0-alpha04"
+agp = "8.4.0-alpha12"
 kotlin = "1.9.22"
 coreKtx = "1.12.0"
 junit = "4.13.2"
@@ -513,4 +513,5 @@ ktor = ["ktor-client-android",
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
 
